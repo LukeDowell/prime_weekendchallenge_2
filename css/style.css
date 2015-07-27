@@ -1,0 +1,39 @@
+.jumbotron {
+    padding: 15px;
+    border: 1px solid #337ab7;
+    border-radius: 0 0 20px 20px;
+}
+
+.search-wrapper {
+    margin-bottom: 2em;
+}
+
+.panel {
+    min-height: 180px;
+}
+
+.panel-heading a {
+    text-decoration: none;
+    color:white;
+}
+
+.panel-heading img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+}
+
+.panel-heading h3 {
+    display: inline;
+    vertical-align: middle;
+}
+
+.panel-heading p {
+    display: inline;
+    float: right;
+}
+
+.repo-wrapper {
+    max-height: 500px;
+    overflow-y: auto;
+}

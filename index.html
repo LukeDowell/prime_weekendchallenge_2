@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax Challenge</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <!-- Page header -->
+    <div class="jumbotron col-md-10 col-md-offset-1">
+        <h1>Weekend Challenge #2</h1>
+        <p>Feat. A$AP Ajax and Yung GithubAPI</p>
+    </div>
+
+    <div class="container">
+
+        <!--Organization search form -->
+        <div class="row">
+            <div class="search-wrapper col-md-6 col-md-offset-3">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button id="searchButton" class="btn btn-default" type="button">Users</button>
+                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdownVal" href="#">Users</a></li>
+                            <li><a class="dropdownVal" href="#">Orgs</a></li>
+                        </ul>
+                    </span>
+                    <input id="searchField" type="text" class="form-control" placeholder="Search for a user or an org..."/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Template User Card -->
+        <div class="row card-wrapper">
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <img src="https://avatars.githubusercontent.com/u/1821736?v=3">
+                        <h3><a href="www.badgrades.org">LukeDowell</a></h3>
+                        <p>Prime Academy</p>
+                    </div>
+                    <div class="panel-body">
+                        <p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Minneapolis</p>
+                        <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> lukedowell@gmail.com</p>
+                        <p><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> public repos: <a class = "repoLink" data-login = "lukedowell"    href="#">16</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Repo Browser Modal -->
+    <div class="modal">
+        <div id="repoModal" class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Repo Browser</h4>
+                </div>
+                <div id="repoModalBody" class="modal-body">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Begin Scripts -->
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- End Scripts -->
+</body>
+</html>
