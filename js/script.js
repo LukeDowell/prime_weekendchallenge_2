@@ -2,7 +2,7 @@
  * Created by lukedowell on 7/24/15.
  */
 
-var OAUTH_ID = "6ee4fa037c8ce3917c2e41d47a93875094e952c2";
+var OAUTH_ID = "your oauth id";
 var GIT_URL = "https://api.github.com/";
 var ENTER_KEY = 13;
 
